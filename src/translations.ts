@@ -81,6 +81,11 @@ export const translations: Record<Language, TranslationDict> = {
       apiSuccess: 'Successfully synchronized with live Google Search Status Dashboard API.',
       lastUpdated: 'Synchronized at',
       refreshBtn: 'Refresh'
+    },
+    footer: {
+      toolName: 'Google Algorithm Tracking & Volatility Tool',
+      by: 'by',
+      copyright: 'Copyright ©'
     }
   },
   he: {
@@ -158,6 +163,11 @@ export const translations: Record<Language, TranslationDict> = {
       apiSuccess: 'חיבור בוצע בהצלחה ובוצע סנכרון מול לוח הבקרה הרשמי של Google.',
       lastUpdated: 'עודכן לאחרונה ב-',
       refreshBtn: 'רענן מידע'
+    },
+    footer: {
+      toolName: 'כלי מעקב אלגוריתם Google ותנודתיות',
+      by: 'מבית',
+      copyright: 'זכויות יוצרים ©'
     }
   },
   ru: {
@@ -235,6 +245,11 @@ export const translations: Record<Language, TranslationDict> = {
       apiSuccess: 'Синхронизация с серверами Google Search Status Dashboard API успешно завершена.',
       lastUpdated: 'Синхронизировано в',
       refreshBtn: 'Обновить данные'
+    },
+    footer: {
+      toolName: 'Инструмент отслеживания алгоритмов и волатильности Google',
+      by: 'от',
+      copyright: 'Copyright ©'
     }
   }
 };

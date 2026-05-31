@@ -703,12 +703,20 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#70757A] font-medium">
           <div className="flex items-center gap-2">
             <span className="h-2 w-2 rounded-full bg-[#4285F4]"></span>
-            <span>Google Algorithm Tracking & Volatility Tool</span>
+            <span>
+              {t.footer.toolName} {t.footer.by}{' '}
+              <a
+                href="https://netolink.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#4285F4] hover:underline"
+              >
+                Netolink
+              </a>
+            </span>
           </div>
           <div className="flex items-center gap-4 text-[#70757A]">
-            <span>RTL Bi-Directional Translation Platform</span>
-            <span className="text-[#DADCE0]">|</span>
-            <span>May 2026 Engine</span>
+            <span>{t.footer.copyright} {new Date().getFullYear()}</span>
           </div>
         </div>
       </footer>

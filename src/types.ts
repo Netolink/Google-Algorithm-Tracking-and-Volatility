@@ -81,6 +81,11 @@ export interface TranslationDict {
     lastUpdated: string;
     refreshBtn: string;
   };
+  footer: {
+    toolName: string;
+    by: string;
+    copyright: string;
+  };
 }
 
 export type ServicesKeys = 'Ranking' | 'Indexing' | 'Serving' | 'Crawling' | 'General';

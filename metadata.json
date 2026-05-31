@@ -1,0 +1,6 @@
+{
+  "name": "Google Algorithm Tracking & Volatility Tool",
+  "description": "Monitors real-time SERP volatility index and correlates it with Google search official status updates and incident logs across three languages (EN, HE, RU).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
